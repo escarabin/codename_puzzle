@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52688B04201F97580078C1DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52688B03201F97580078C1DC /* AppDelegate.swift */; };
+		52688B06201F97580078C1DC /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 52688B05201F97580078C1DC /* art.scnassets */; };
+		52688B08201F97580078C1DC /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52688B07201F97580078C1DC /* GameViewController.swift */; };
+		52688B0B201F97580078C1DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52688B09201F97580078C1DC /* Main.storyboard */; };
+		52688B0D201F97580078C1DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52688B0C201F97580078C1DC /* Assets.xcassets */; };
+		52688B10201F97580078C1DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52688B0E201F97580078C1DC /* LaunchScreen.storyboard */; };
+		52688B1B201F97580078C1DC /* LabyrinthPuzzleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52688B1A201F97580078C1DC /* LabyrinthPuzzleTests.swift */; };
+		52688B26201F97580078C1DC /* LabyrinthPuzzleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52688B25201F97580078C1DC /* LabyrinthPuzzleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52688B17201F97580078C1DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52688AF8201F97580078C1DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52688AFF201F97580078C1DC;
+			remoteInfo = LabyrinthPuzzle;
+		};
+		52688B22201F97580078C1DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52688AF8201F97580078C1DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52688AFF201F97580078C1DC;
+			remoteInfo = LabyrinthPuzzle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		52688B00201F97580078C1DC /* LabyrinthPuzzle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LabyrinthPuzzle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52688B03201F97580078C1DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		52688B05201F97580078C1DC /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		52688B07201F97580078C1DC /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		52688B0A201F97580078C1DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52688B0C201F97580078C1DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52688B0F201F97580078C1DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		52688B11201F97580078C1DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52688B16201F97580078C1DC /* LabyrinthPuzzleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LabyrinthPuzzleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52688B1A201F97580078C1DC /* LabyrinthPuzzleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabyrinthPuzzleTests.swift; sourceTree = "<group>"; };
+		52688B1C201F97580078C1DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52688B21201F97580078C1DC /* LabyrinthPuzzleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LabyrinthPuzzleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52688B25201F97580078C1DC /* LabyrinthPuzzleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabyrinthPuzzleUITests.swift; sourceTree = "<group>"; };
+		52688B27201F97580078C1DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52688AFD201F97580078C1DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52688B13201F97580078C1DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52688B1E201F97580078C1DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52688AF7201F97580078C1DC = {
+			isa = PBXGroup;
+			children = (
+				52688B02201F97580078C1DC /* LabyrinthPuzzle */,
+				52688B19201F97580078C1DC /* LabyrinthPuzzleTests */,
+				52688B24201F97580078C1DC /* LabyrinthPuzzleUITests */,
+				52688B01201F97580078C1DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52688B01201F97580078C1DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52688B00201F97580078C1DC /* LabyrinthPuzzle.app */,
+				52688B16201F97580078C1DC /* LabyrinthPuzzleTests.xctest */,
+				52688B21201F97580078C1DC /* LabyrinthPuzzleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52688B02201F97580078C1DC /* LabyrinthPuzzle */ = {
+			isa = PBXGroup;
+			children = (
+				52688B03201F97580078C1DC /* AppDelegate.swift */,
+				52688B05201F97580078C1DC /* art.scnassets */,
+				52688B07201F97580078C1DC /* GameViewController.swift */,
+				52688B09201F97580078C1DC /* Main.storyboard */,
+				52688B0C201F97580078C1DC /* Assets.xcassets */,
+				52688B0E201F97580078C1DC /* LaunchScreen.storyboard */,
+				52688B11201F97580078C1DC /* Info.plist */,
+			);
+			path = LabyrinthPuzzle;
+			sourceTree = "<group>";
+		};
+		52688B19201F97580078C1DC /* LabyrinthPuzzleTests */ = {
+			isa = PBXGroup;
+			children = (
+				52688B1A201F97580078C1DC /* LabyrinthPuzzleTests.swift */,
+				52688B1C201F97580078C1DC /* Info.plist */,
+			);
+			path = LabyrinthPuzzleTests;
+			sourceTree = "<group>";
+		};
+		52688B24201F97580078C1DC /* LabyrinthPuzzleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				52688B25201F97580078C1DC /* LabyrinthPuzzleUITests.swift */,
+				52688B27201F97580078C1DC /* Info.plist */,
+			);
+			path = LabyrinthPuzzleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52688AFF201F97580078C1DC /* LabyrinthPuzzle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52688B2A201F97580078C1DC /* Build configuration list for PBXNativeTarget "LabyrinthPuzzle" */;
+			buildPhases = (
+				52688AFC201F97580078C1DC /* Sources */,
+				52688AFD201F97580078C1DC /* Frameworks */,
+				52688AFE201F97580078C1DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LabyrinthPuzzle;
+			productName = LabyrinthPuzzle;
+			productReference = 52688B00201F97580078C1DC /* LabyrinthPuzzle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52688B15201F97580078C1DC /* LabyrinthPuzzleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52688B2D201F97580078C1DC /* Build configuration list for PBXNativeTarget "LabyrinthPuzzleTests" */;
+			buildPhases = (
+				52688B12201F97580078C1DC /* Sources */,
+				52688B13201F97580078C1DC /* Frameworks */,
+				52688B14201F97580078C1DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52688B18201F97580078C1DC /* PBXTargetDependency */,
+			);
+			name = LabyrinthPuzzleTests;
+			productName = LabyrinthPuzzleTests;
+			productReference = 52688B16201F97580078C1DC /* LabyrinthPuzzleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		52688B20201F97580078C1DC /* LabyrinthPuzzleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52688B30201F97580078C1DC /* Build configuration list for PBXNativeTarget "LabyrinthPuzzleUITests" */;
+			buildPhases = (
+				52688B1D201F97580078C1DC /* Sources */,
+				52688B1E201F97580078C1DC /* Frameworks */,
+				52688B1F201F97580078C1DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52688B23201F97580078C1DC /* PBXTargetDependency */,
+			);
+			name = LabyrinthPuzzleUITests;
+			productName = LabyrinthPuzzleUITests;
+			productReference = 52688B21201F97580078C1DC /* LabyrinthPuzzleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52688AF8201F97580078C1DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Emmanuel Scarabin";
+				TargetAttributes = {
+					52688AFF201F97580078C1DC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					52688B15201F97580078C1DC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 52688AFF201F97580078C1DC;
+					};
+					52688B20201F97580078C1DC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 52688AFF201F97580078C1DC;
+					};
+				};
+			};
+			buildConfigurationList = 52688AFB201F97580078C1DC /* Build configuration list for PBXProject "LabyrinthPuzzle" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52688AF7201F97580078C1DC;
+			productRefGroup = 52688B01201F97580078C1DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52688AFF201F97580078C1DC /* LabyrinthPuzzle */,
+				52688B15201F97580078C1DC /* LabyrinthPuzzleTests */,
+				52688B20201F97580078C1DC /* LabyrinthPuzzleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52688AFE201F97580078C1DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52688B06201F97580078C1DC /* art.scnassets in Resources */,
+				52688B10201F97580078C1DC /* LaunchScreen.storyboard in Resources */,
+				52688B0D201F97580078C1DC /* Assets.xcassets in Resources */,
+				52688B0B201F97580078C1DC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52688B14201F97580078C1DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52688B1F201F97580078C1DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52688AFC201F97580078C1DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52688B08201F97580078C1DC /* GameViewController.swift in Sources */,
+				52688B04201F97580078C1DC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52688B12201F97580078C1DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52688B1B201F97580078C1DC /* LabyrinthPuzzleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52688B1D201F97580078C1DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52688B26201F97580078C1DC /* LabyrinthPuzzleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52688B18201F97580078C1DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52688AFF201F97580078C1DC /* LabyrinthPuzzle */;
+			targetProxy = 52688B17201F97580078C1DC /* PBXContainerItemProxy */;
+		};
+		52688B23201F97580078C1DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52688AFF201F97580078C1DC /* LabyrinthPuzzle */;
+			targetProxy = 52688B22201F97580078C1DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52688B09201F97580078C1DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52688B0A201F97580078C1DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52688B0E201F97580078C1DC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52688B0F201F97580078C1DC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52688B28201F97580078C1DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52688B29201F97580078C1DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52688B2B201F97580078C1DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LabyrinthPuzzle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = emmanuelscarabin.LabyrinthPuzzle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52688B2C201F97580078C1DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LabyrinthPuzzle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = emmanuelscarabin.LabyrinthPuzzle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		52688B2E201F97580078C1DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LabyrinthPuzzleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = emmanuelscarabin.LabyrinthPuzzleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LabyrinthPuzzle.app/LabyrinthPuzzle";
+			};
+			name = Debug;
+		};
+		52688B2F201F97580078C1DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LabyrinthPuzzleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = emmanuelscarabin.LabyrinthPuzzleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LabyrinthPuzzle.app/LabyrinthPuzzle";
+			};
+			name = Release;
+		};
+		52688B31201F97580078C1DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LabyrinthPuzzleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = emmanuelscarabin.LabyrinthPuzzleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LabyrinthPuzzle;
+			};
+			name = Debug;
+		};
+		52688B32201F97580078C1DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LabyrinthPuzzleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = emmanuelscarabin.LabyrinthPuzzleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LabyrinthPuzzle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52688AFB201F97580078C1DC /* Build configuration list for PBXProject "LabyrinthPuzzle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52688B28201F97580078C1DC /* Debug */,
+				52688B29201F97580078C1DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52688B2A201F97580078C1DC /* Build configuration list for PBXNativeTarget "LabyrinthPuzzle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52688B2B201F97580078C1DC /* Debug */,
+				52688B2C201F97580078C1DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52688B2D201F97580078C1DC /* Build configuration list for PBXNativeTarget "LabyrinthPuzzleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52688B2E201F97580078C1DC /* Debug */,
+				52688B2F201F97580078C1DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52688B30201F97580078C1DC /* Build configuration list for PBXNativeTarget "LabyrinthPuzzleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52688B31201F97580078C1DC /* Debug */,
+				52688B32201F97580078C1DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52688AF8201F97580078C1DC /* Project object */;
+}
